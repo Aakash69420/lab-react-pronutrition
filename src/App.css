@@ -1,0 +1,68 @@
+.title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem auto;
+  max-width: 960px;
+}
+
+.column {
+  width: 100%;
+}
+
+.box {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.media {
+  align-items: center;
+}
+
+.media-left,
+.media-right {
+  flex-basis: 64px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  flex-grow: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.control {
+  margin-right: 0.5rem;
+}
+
+button.delete {
+  margin-left: 1rem;
+}
+
+.total {
+  margin-top: 2rem;
+  text-align: right;
+}
+
+.total strong {
+  font-size: 1.25rem;
+}
+
+.media-left img {
+  width: 850px;
+  height: auto;
+}
